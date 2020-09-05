@@ -10,6 +10,10 @@ class ConfigProviderTest extends TestCase
     public function testItShouldReturnTheConfigArray(): void
     {
         $configProvider = new ConfigProvider();
-        $this->assertIsArray($configProvider());
+        $config = $configProvider();
+        $this->assertIsArray($config);
+
+        $this->assertSame(ConfigProvider::COMMAND_BUS, $config['command_bus']);
+        $this->assertSame(ConfigProvider::DEPENDENCIES, $config['dependencies']);
     }
 }
