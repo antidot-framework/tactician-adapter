@@ -1,10 +1,11 @@
 # Changelog
 
-## [0.0.1] - 2020-09-06
+All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 0.0.1 - 2020-09-06
 [0.0.1](https://github.com/antidot-framework/tactician-adapter/tree/0.0.1)
 
-[Full Changelog](https://github.com/antidot-framework/tactician-adapter/compare/1860d5827fd0024b43ab1f4ecd61658e7b4083da...0.0.1)
+[Full Changelog](https://github.com/antidot-framework/tactician-adapter/compare/1860d5827fd0024b43ab1f4ecd61658e7b4083da...HEAD)
 
 **Closed issues:**
 
