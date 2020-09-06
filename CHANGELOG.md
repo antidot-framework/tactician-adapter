@@ -1,33 +1,18 @@
 # Changelog
 
-All notable changes to this project will be documented in this file, in reverse chronological order by release.
+## 0.0.2 - 2020-09-06
+[0.0.2](https://github.com/antidot-framework/tactician-adapter/tree/0.0.2)
 
-## 0.0.2 - TBD
+[Full Changelog](https://github.com/antidot-framework/tactician-adapter/compare/0.0.1...0.0.2)
 
-### Added
+**Merged pull requests:**
 
-- Nothing.
-
-### Changed
-
-- Nothing.
-
-### Deprecated
-
-- Nothing.
-
-### Removed
-
-- Nothing.
-
-### Fixed
-
-- Nothing.
+- enable query bus [\#8](https://github.com/antidot-framework/tactician-adapter/pull/8) ([kpicaza](https://github.com/kpicaza))
 
 ## 0.0.1 - 2020-09-06
 [0.0.1](https://github.com/antidot-framework/tactician-adapter/tree/0.0.1)
 
-[Full Changelog](https://github.com/antidot-framework/tactician-adapter/compare/1860d5827fd0024b43ab1f4ecd61658e7b4083da...HEAD)
+[Full Changelog](https://github.com/antidot-framework/tactician-adapter/compare/1860d5827fd0024b43ab1f4ecd61658e7b4083da...0.0.1)
 
 **Closed issues:**
 
@@ -36,6 +21,8 @@ All notable changes to this project will be documented in this file, in reverse 
 
 **Merged pull requests:**
 
+- fix changelog title format [\#7](https://github.com/antidot-framework/tactician-adapter/pull/7) ([kpicaza](https://github.com/kpicaza))
+- add release 0.0.1 changelog [\#6](https://github.com/antidot-framework/tactician-adapter/pull/6) ([kpicaza](https://github.com/kpicaza))
 - Fix namespaces in the readme [\#5](https://github.com/antidot-framework/tactician-adapter/pull/5) ([kpicaza](https://github.com/kpicaza))
 - add command bus factory [\#4](https://github.com/antidot-framework/tactician-adapter/pull/4) ([kpicaza](https://github.com/kpicaza))
 - add project files [\#3](https://github.com/antidot-framework/tactician-adapter/pull/3) ([kpicaza](https://github.com/kpicaza))
