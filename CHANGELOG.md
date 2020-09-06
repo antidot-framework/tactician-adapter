@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.3 - TBD
+## 0.1.0 - TBD
 
 ### Added
 
