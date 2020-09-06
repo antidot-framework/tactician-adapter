@@ -96,7 +96,7 @@ This is default config.
 
 return [
     ...,
-    'command-bus' => [
+    'command_bus' => [
         'locator' => \League\Tactician\Handler\Locator\HandlerLocator::class,
         'inflector' => \League\Tactician\Handler\MethodNameInflector\MethodNameInflector::class,
         'extractor' => \League\Tactician\Handler\CommandNameExtractor\CommandNameExtractor::class,
@@ -109,3 +109,24 @@ return [
     ],
 ];
 ````
+
+## Query Bus
+
+You can use a query bus too, the difference with the command bus is that the query bus will always return an object.
+
+```php
+<?php
+// command-bus.global.php
+
+return [
+    ...,
+    'query_bus' => [
+        'locator' => 'query_bus.handler_locator',
+        'inflector' => \League\Tactician\Handler\MethodNameInflector\MethodNameInflector::class,
+        'extractor' => \League\Tactician\Handler\CommandNameExtractor\CommandNameExtractor::class,
+        'middleware' => [
+
+        ],
+    ],
+];
+```
