@@ -9,6 +9,28 @@
 
 - enable query bus [\#8](https://github.com/antidot-framework/tactician-adapter/pull/8) ([kpicaza](https://github.com/kpicaza))
 
+## 0.0.3 - TBD
+
+### Added
+
+- Nothing.
+
+### Changed
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 0.0.1 - 2020-09-06
 [0.0.1](https://github.com/antidot-framework/tactician-adapter/tree/0.0.1)
 
