@@ -83,3 +83,24 @@
  - [2: Set up project](https://github.com/antidot-framework/tactician-adapter/issues/2) thanks to @kpicaza
  - [1: Add required factories for tactician command bus](https://github.com/antidot-framework/tactician-adapter/issues/1) thanks to @kpicaza
 
+
+
+-----
+
+### Release Notes for [0.0.1](https://github.com/antidot-framework/tactician-adapter/milestone/1)
+
+
+
+### 0.0.1
+
+- Total issues resolved: **2**
+- Total pull requests resolved: **4**
+- Total contributors: **1**
+
+ - [6: add release 0.0.1 changelog](https://github.com/antidot-framework/tactician-adapter/pull/6) thanks to @kpicaza
+ - [5: Fix namespaces in the readme](https://github.com/antidot-framework/tactician-adapter/pull/5) thanks to @kpicaza
+ - [4: add command bus factory](https://github.com/antidot-framework/tactician-adapter/pull/4) thanks to @kpicaza
+ - [3: add project files](https://github.com/antidot-framework/tactician-adapter/pull/3) thanks to @kpicaza
+ - [2: Set up project](https://github.com/antidot-framework/tactician-adapter/issues/2) thanks to @kpicaza
+ - [1: Add required factories for tactician command bus](https://github.com/antidot-framework/tactician-adapter/issues/1) thanks to @kpicaza
+
