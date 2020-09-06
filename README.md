@@ -1,6 +1,11 @@
 # Antidot Framework Tactician Adapter
 
-[League tactician](http://tactician.thephpleague.com/) command bus adapter for [Antidot Framework](https://antidotfw.io/) and [zend-expressive framework](https://docs.zendframework.com/zend-expressive/).
+[![Latest Version on Packagist][ico-version]][link-packagist]
+[![Software License][ico-license]](LICENSE.md)
+[![Build Status][ico-travis]][link-travis]
+[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
+[![Quality Score][ico-code-quality]][link-code-quality]
+[![Total Downloads][ico-downloads]][link-downloads]
 
 ## Getting started
 
@@ -130,3 +135,18 @@ return [
     ],
 ];
 ```
+
+[ico-version]: https://img.shields.io/packagist/v/antidot-fw/tactician.svg?style=flat-square
+[ico-license]: https://img.shields.io/badge/license-BSD%202--Clause-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/scrutinizer/build/g/antidot-framework/tactician-adapter.svg?style=flat-square
+[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/antidot-framework/tactician-adapter.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/antidot-framework/tactician-adapter.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/antidot-fw/tactician.svg?style=flat-square
+
+[link-packagist]: https://packagist.org/packages/antidot-fw/tactician
+[link-travis]: https://scrutinizer-ci.com/g/antidot-framework/tactician-adapter/
+[link-scrutinizer]: https://scrutinizer-ci.com/g/antidot-framework/tactician-adapter/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/antidot-framework/tactician-adapter/badges/coverage.png?b=master
+[link-downloads]: https://packagist.org/packages/antidot-fw/tactician
+[link-author]: https://github.com/kpicaza
+[link-contributors]: ../../contributors
