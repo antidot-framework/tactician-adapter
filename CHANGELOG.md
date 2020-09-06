@@ -1,14 +1,5 @@
 # Changelog
 
-## 0.0.2 - 2020-09-06
-[0.0.2](https://github.com/antidot-framework/tactician-adapter/tree/0.0.2)
-
-[Full Changelog](https://github.com/antidot-framework/tactician-adapter/compare/0.0.1...0.0.2)
-
-**Merged pull requests:**
-
-- enable query bus [\#8](https://github.com/antidot-framework/tactician-adapter/pull/8) ([kpicaza](https://github.com/kpicaza))
-
 ## 0.0.3 - TBD
 
 ### Added
@@ -30,6 +21,27 @@
 ### Fixed
 
 - Nothing.
+
+## 0.0.2 - 2020-09-06
+[0.0.2](https://github.com/antidot-framework/tactician-adapter/tree/0.0.2)
+
+[Full Changelog](https://github.com/antidot-framework/tactician-adapter/compare/0.0.1...0.0.2)
+
+**Merged pull requests:**
+
+- enable query bus [\#8](https://github.com/antidot-framework/tactician-adapter/pull/8) ([kpicaza](https://github.com/kpicaza))
+
+### Release Notes for [0.0.2](https://github.com/antidot-framework/tactician-adapter/milestone/2)
+
+0.0.x bugfix release (patch)
+
+### 0.0.2
+
+- Total issues resolved: **0**
+- Total pull requests resolved: **1**
+- Total contributors: **1**
+
+ - [8: enable query bus](https://github.com/antidot-framework/tactician-adapter/pull/8) thanks to @kpicaza
 
 ## 0.0.1 - 2020-09-06
 [0.0.1](https://github.com/antidot-framework/tactician-adapter/tree/0.0.1)
