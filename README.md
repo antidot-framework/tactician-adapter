@@ -70,14 +70,14 @@ You can use `InFw\TacticianAdapter\Action\AbstractAction` as base action.
 namespace App\Action;
 
 use App\Command\PingCommand;
-use InFw\TacticianAdapter\Action\AbstractAction;
-use Interop\Http\ServerMiddleware\DelegateInterface;
-use Zend\Diactoros\Response\JsonResponse;
+use Laminas\Diactoros\Response\JsonResponse;
+use Psr\Http\Message\ResponseInterface;
+use Psr\Http\Server\RequestHandlerInterface;
 use Psr\Http\Message\ServerRequestInterface;
 
-class PingAction extends AbstractAction
+class PingAction implements RequestHandlerInterface
 {
-    public function process(ServerRequestInterface $request, DelegateInterface $delegate)
+    public function handle(ServerRequestInterface $request): ResponseInterface
     {
         return new JsonResponse(['ack' => $this->bus->handle(new PingCommand())]);
     }
