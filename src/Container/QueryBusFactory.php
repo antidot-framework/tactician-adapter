@@ -19,19 +19,21 @@ class QueryBusFactory
         $globalConfig = $container->get('config');
         $config = CommandBusConfig::createFromArrayConfig($globalConfig['query_bus']);
 
-        /** @psalm-suppress MixedArgumentTypeCoercion */
+        /** @psalm-suppress MixedArgumentTypeCoercion
+         *  @psalm-suppress MixedArgument
+        */
         return new QueryBus(new CommandBus(array_merge(
             array_map(static function (string $middleware) use ($container) {
                 return $container->get($middleware);
             }, $config->getMiddleware()),
             [
                 new CommandHandlerMiddleware(
-                /** @var CommandNameExtractor $nameExtractor */
-                    $nameExtractor = $container->get($config->getExtractor()),
+                    /** @var CommandNameExtractor $nameExtractor */
+                    $container->get($config->getExtractor()),
                     /** @var HandlerLocator $locator */
-                    $locator = $container->get($config->getLocator()),
+                    $container->get($config->getLocator()),
                     /** @var MethodNameInflector $inflector */
-                    $inflector = $container->get($config->getInflector())
+                    $container->get($config->getInflector())
                 ),
             ]
         )));
